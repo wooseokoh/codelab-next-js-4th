@@ -17,7 +17,6 @@ export default function handler(req, res) {
             price: parseInt(item[1], 10),
         });
     });
-    console.log(json);
     res.status(200).json(json);
   }
   
